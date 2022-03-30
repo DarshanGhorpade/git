@@ -1,0 +1,35 @@
+1. config name
+git config --global user.name "your name here"
+
+2. config email
+git config --global user.email "your email id here"
+
+3. To check whether the name and email configured or not
+   run the following commands simultaneously
+   	git config --global user.name
+   	git config --global user.email
+
+4. To initialise empty git repository
+	git init
+
+5. To check status of repository
+	git status
+
+6. To stage the files in staging area
+	git add .
+
+7. Commit the modifications of files added
+	git commit -m "Your message"
+
+8. Add remote origin
+	git remote add origin "your repository link"
+
+9. To check remote origin added or not
+	git remote -v
+
+9. Finally push the changes 
+	git push -u origin "branch name"
+
+
+Git tutorial Link
+https://youtu.be/uaeKhfhYE0U
